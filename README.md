@@ -22,12 +22,12 @@ Now you're ready to run!
 
 How to run:
 
-1. Make sure your data file is in the same folder as the "download.sh" file.
+	1. Make sure your data file is in the same folder as the "download.sh" file.
 
-2. Open the terminal
+	2. Open the terminal
 
-3. Navigate to the folder "download.sh" is in using "ls" to list the folders in your current directory, and "cd *folderName*" to change to the target folder.
+	3. Navigate to the folder "download.sh" is in using "ls" to list the folders in your current directory, and "cd *folderName*" to change to the target folder.
 
-4. Type "./download.sh" without quotes.
+	4. Type "./download.sh" without quotes.
 
-5. It should be running!
+	5. It should be running!
