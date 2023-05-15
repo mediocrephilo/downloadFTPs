@@ -4,7 +4,7 @@
 
 What your data file should look like:
 
-Strain Name    AssemblyID 1 (starting with GCA)    AssemblyID 2 (starting with ASM)
+Strain Name    AssemblyID (starting with GCA)
 
 The way I recommend you do this is:
 
@@ -14,20 +14,18 @@ The way I recommend you do this is:
 
 	3. copy-paste the "assembly" column into column 2 of your excel sheet
 
-	4. as you're filling out your data for each of the genomes you want from the ncbi genome list page, open the corresponding "assembly" link and copy-paste 	     the "ASM******v*" code at the top of the page into column 3 of your excel sheet
-
-	5. copy-paste your first three excel sheet columns into a blank text document and title it whatever you want
+	4. create a blank .txt file inside this folder, and copy-paste your first two excel sheet columns into it
 
 Now you're ready to run!
 
-How to run:
+To run:
+	
+	1. open linux terminal
 
-	1. Make sure your data file is in the same folder as the "download.sh" file.
+	2. navigate to the folder this file is in by typing "cd [directory name here]" and hitting enter
 
-	2. Open the terminal
+		*you can type "ls" and then hit enter to see the list of all possible directories you can navigate to
+	
+	3. once you're in this folder in the terminal, type "./download.sh" and hit enter
 
-	3. Navigate to the folder "download.sh" is in using "ls" to list the folders in your current directory, and "cd *folderName*" to change to the target folder.
-
-	4. Type "./download.sh" without quotes.
-
-	5. It should be running!
+	4. follow the prompts
